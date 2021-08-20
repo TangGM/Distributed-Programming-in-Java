@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.coursera.distributed.MpiJavaTest" time="0.148" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2021.1.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.1+9"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-16.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/gaoming/Desktop/CMU/Pre-F21/Distributed Programming in Java/miniproject_3"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="TW"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/gaoming/Desktop/CMU/Pre-F21/Distributed Programming in Java/miniproject_3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="16.0.1+9"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/cf/k63f1kgd3r1ckpjvhdyn6jqh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/gaoming/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="11.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/gaoming"/>
+    <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="gaoming"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.1.1 install"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-16.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK-16.0.1+9"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="edu.coursera.distributed.MpiJavaTest" classname="edu.coursera.distributed.MpiJavaTest$1" time="0.148">
+    <error message="Unable to load library &apos;mpi&apos;: Native library (darwin/libmpi.dylib) not found in resource path (/Users/gaoming/Desktop/CMU/Pre-F21/Distributed Programming in Java/miniproject_3/target/test-classes:/Users/gaoming/Desktop/CMU/Pre-F21/Distributed Programming in Java/miniproject_3/target/classes:/Users/gaoming/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/2.4.3/maven-resources-plugin-2.4.3.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-beta-2/wagon-file-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-2/wagon-http-lightweight-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-http-shared/1.0-beta-2/wagon-http-shared-1.0-beta-2.jar:/Users/gaoming/.m2/repository/jtidy/jtidy/4aug2000r7-dev/jtidy-4aug2000r7-dev.jar:/Users/gaoming/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/gaoming/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar:/Users/gaoming/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-ssh-external/1.0-beta-2/wagon-ssh-external-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-ssh-common/1.0-beta-2/wagon-ssh-common-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar:/Users/gaoming/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-ssh/1.0-beta-2/wagon-ssh-1.0-beta-2.jar:/Users/gaoming/.m2/repository/com/jcraft/jsch/0.1.27/jsch-0.1.27.jar:/Users/gaoming/.m2/repository/classworlds/classworlds/1.1/classworlds-1.1.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar:/Users/gaoming/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/gaoming/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar:/Users/gaoming/.m2/repository/org/apache/maven/shared/maven-filtering/1.0-beta-4/maven-filtering-1.0-beta-4.jar:/Users/gaoming/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar:/Users/gaoming/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar:/Users/gaoming/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/gaoming/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/gaoming/.m2/repository/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar:)" type="java.lang.UnsatisfiedLinkError"><![CDATA[java.lang.UnsatisfiedLinkError: Unable to load library 'mpi': Native library (darwin/libmpi.dylib) not found in resource path (/Users/gaoming/Desktop/CMU/Pre-F21/Distributed Programming in Java/miniproject_3/target/test-classes:/Users/gaoming/Desktop/CMU/Pre-F21/Distributed Programming in Java/miniproject_3/target/classes:/Users/gaoming/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/2.4.3/maven-resources-plugin-2.4.3.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-beta-2/wagon-file-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-2/wagon-http-lightweight-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-http-shared/1.0-beta-2/wagon-http-shared-1.0-beta-2.jar:/Users/gaoming/.m2/repository/jtidy/jtidy/4aug2000r7-dev/jtidy-4aug2000r7-dev.jar:/Users/gaoming/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/gaoming/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar:/Users/gaoming/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-ssh-external/1.0-beta-2/wagon-ssh-external-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-ssh-common/1.0-beta-2/wagon-ssh-common-1.0-beta-2.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar:/Users/gaoming/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar:/Users/gaoming/.m2/repository/org/apache/maven/wagon/wagon-ssh/1.0-beta-2/wagon-ssh-1.0-beta-2.jar:/Users/gaoming/.m2/repository/com/jcraft/jsch/0.1.27/jsch-0.1.27.jar:/Users/gaoming/.m2/repository/classworlds/classworlds/1.1/classworlds-1.1.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar:/Users/gaoming/.m2/repository/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar:/Users/gaoming/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/gaoming/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar:/Users/gaoming/.m2/repository/org/apache/maven/shared/maven-filtering/1.0-beta-4/maven-filtering-1.0-beta-4.jar:/Users/gaoming/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar:/Users/gaoming/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar:/Users/gaoming/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/gaoming/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/gaoming/.m2/repository/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar:)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:277)
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403)
+	at com.sun.jna.Library$Handler.<init>(Library.java:147)
+	at com.sun.jna.Native.loadLibrary(Native.java:502)
+	at com.sun.jna.Native.loadLibrary(Native.java:481)
+	at edu.coursera.distributed.util.MPI$MPILib.<clinit>(MPI.java:20)
+	at edu.coursera.distributed.util.MPI.<init>(MPI.java:77)
+	at edu.coursera.distributed.MpiJavaTest$1.setUp(MpiJavaTest.java:66)
+]]></error>
+  </testcase>
+</testsuite>
